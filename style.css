@@ -16,7 +16,20 @@ body{
 }
 
 
-#coconut{
+#topcoconut{
+    mix-blend-mode: color-burn;
+    background-image: url(media/coconut.png);
+    background-size: 100px 100px;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    opacity: .9;
+}
+
+
+#bottomcoconut{
     mix-blend-mode: color-burn;
     background-image: url(media/coconut.png);
     background-size: 100px 100px;
@@ -61,7 +74,7 @@ video{
 }
 
 audio {
-    z-index: 10;
+    z-index: 100;
     mix-blend-mode: lighten;
     position: absolute;
     bottom: 0;
