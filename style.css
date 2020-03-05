@@ -15,54 +15,55 @@ body{
     height: auto;
 }
 
-#watercolor_bird{
-    mix-blend-mode: multiply;
-    background-image: url(media/bird.gif);
+#watercolor_banana{
+    mix-blend-mode: color-burn;
+    background-image: url(media/Banana-PNG.png);
     background-size: 100px 100px;
     position: absolute;
     width: 300px;
     height: 100px;
-    opacity: .7;
+    opacity: .9;
 }
 
-#watercolor_bird2{
-    mix-blend-mode: multiply;
-    background-image: url(media/bird2.gif);
+#watercolor_coconut{
+    mix-blend-mode: color-burn;
+    background-image: url(media/coconut.png);
     background-size: 100px 100px;
     position: absolute;
     width: 300px;
     height: 100px;
     bottom: 0;
     right: 0;
-    opacity: .5;
+    opacity: .9;
 }
 
-#abstract{
+/* #yellow{
     mix-blend-mode: difference;
-    background-image: url(media/abstract_bird.gif);
+    background-image: url(media/yellow_bg.jpg);
     background-size: 100px 100px;
     position: absolute;
     width: 100%;
     height: 100px;
     top: 42%;
-}
+} */
 
-#one{
-    mix-blend-mode: exclusion;
-    background-image: url(media/abstract_bird.gif);
+#yellow{
+    mix-blend-mode: color;
+    background-image: url(media/yellow_bg.jpg);
     position: absolute;
-    top: 22%;
+    top: 10%;
     width: 100%;
     height: 100px;
 }
 
 #two{
-    mix-blend-mode: exclusion;
-    background-image: url(media/abstract_bird.gif);
+    mix-blend-mode: multiply;
+    background-image: url(media/light_purple.jpg);
     position: absolute;
-    top: 62%;
+    top: 19%;
     width: 100%;
     height: 100px;
+    opacity: 0.8;
 }
 
 video{
@@ -87,17 +88,38 @@ audio {
 }
 
 #topLeaf{
-    width:30%;
+    width:50%;
     position: fixed;
     top: -3%;
     right: 0;
     z-index: 10;
+    mix-blend-mode: color-burn;
+}
+
+#topLeftLeaf{
+    width:40%;
+    position: fixed;
+    top: -3%;
+    left: 0px;
+    z-index: 10;
+    mix-blend-mode: color-burn;
+    opacity: 0.8;
+}
+
+#middleLeaf{
+    width:70%;
+    position: fixed;
+    bottom: -20%;
+    left: 15%;
+    z-index: 10;
+    mix-blend-mode: color-burn;
 }
 
 #bottomLeaf{
-    width: 30%;
+    width: 50%;
     position: fixed;
     bottom: -5%;
     left: 0px;
     z-index: 0;
+    mix-blend-mode: color-burn;
 }
