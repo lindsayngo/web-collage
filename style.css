@@ -15,17 +15,8 @@ body{
     height: auto;
 }
 
-#watercolor_banana{
-    mix-blend-mode: color-burn;
-    background-image: url(media/Banana-PNG.png);
-    background-size: 100px 100px;
-    position: absolute;
-    width: 300px;
-    height: 100px;
-    opacity: .9;
-}
 
-#watercolor_coconut{
+#coconut{
     mix-blend-mode: color-burn;
     background-image: url(media/coconut.png);
     background-size: 100px 100px;
@@ -37,15 +28,6 @@ body{
     opacity: .9;
 }
 
-/* #yellow{
-    mix-blend-mode: difference;
-    background-image: url(media/yellow_bg.jpg);
-    background-size: 100px 100px;
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    top: 42%;
-} */
 
 #yellow{
     mix-blend-mode: color;
@@ -56,7 +38,7 @@ body{
     height: 100px;
 }
 
-#two{
+#purple{
     mix-blend-mode: multiply;
     background-image: url(media/light_purple.jpg);
     position: absolute;
